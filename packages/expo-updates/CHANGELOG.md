@@ -16,6 +16,8 @@
 
 ### 🐛 Bug fixes
 
+- Add support for showing a console.warn message (rather than hard crashing) if neither runtime nor SDK version are configured (requires a corresponding update to the `expo` package)
+
 ## 0.4.1 — 2020-11-25
 
 ### 🛠 Breaking changes

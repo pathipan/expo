@@ -11,7 +11,7 @@ export function getExpoHomeJSDir(): string {
 }
 
 export function getExpotoolsDir(): string {
-  return path.join(getExpoRepositoryRootDir(), 'tools', 'expotools');
+  return path.join(getExpoRepositoryRootDir(), 'tools');
 }
 
 export function getBinDir(): string {
